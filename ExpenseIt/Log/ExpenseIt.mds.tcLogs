@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="folders"/>
+		<Node name="logs">
+			<Node name="log idx=0000">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45135.4348390278"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{24AC7465-BC51-46A1-A8FD-9A5C6B216C95}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [data4mProjectVariable\completeFlow]"/>
+				<Prp name="relpath" type="S" value="7_28_2023_10_26 AM_10_92\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0001">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45135.4706102083"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{F833A7A9-438B-4660-8699-7FEE29A4AD80}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [dataWithInMethod\createExpense]"/>
+				<Prp name="relpath" type="S" value="7_28_2023_11_17 AM_40_722\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+		</Node>
+		<Prp name="signature" type="S" value="{681DCC69-A39F-4C4D-8E7D-B2D9362FAF4F}"/>
+		<Prp name="version" type="S" value="11.0"/>
+	</Node>
+</Nodes>

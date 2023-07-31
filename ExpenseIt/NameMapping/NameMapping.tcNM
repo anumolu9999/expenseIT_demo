@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="6" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}" ParallelWalk="True">
+		<Children>
+			<Child Name="Sys" Key="{1E6D455E-5545-48C6-93B2-CB6D2C1469D1}" ParallelWalk="True">
+				<Properties>
+					<Property Name="Name">
+						<Value PropertyType="0" Value="Sys" Type="5" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="Proc_ExpenseIt" Key="{D8C38F63-AD1D-424E-8663-0C5A7831164F}" ParallelWalk="True">
+						<TypeInfo Item0="{9EE66ABF-A3EC-4B53-B07D-73187FF73B3B}" />
+						<Properties>
+							<Property Name="ProcessName">
+								<Value PropertyType="0" Value="ExpenseIt9" Type="5" />
+							</Property>
+							<Property Name="FullName">
+								<Value PropertyType="0" Value="Sys.Process(&quot;ExpenseIt9&quot;)" Type="5" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="form1_Expenseit" Key="{7057D8BB-D8BD-411D-A533-482A21838613}" ParallelWalk="True">
+								<Image FileName="656719016" Left="0" Top="0" Right="480" Bottom="287" />
+								<TypeInfo Item0="{DDAEADFE-3290-47EF-ADEE-E1A4394B09D6}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value PropertyType="0" Value="Form" Type="5" />
+									</Property>
+									<Property Name="Caption">
+										<Value PropertyType="0" Value="ExpenseIt Standalone" Type="5" />
+									</Property>
+									<Property Name="ObjectGroupIndex">
+										<Value PropertyType="0" Value="1" Type="0" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="popupmenus" Key="{AECD85EC-BFCC-4B01-9848-B6A1793320D2}" ParallelWalk="True">
+										<Image FileName="656719016" Left="8" Top="31" Right="472" Bottom="49" />
+										<TypeInfo Item0="{5D82F34C-5729-4A90-A3F3-7418E332CBBF}" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value PropertyType="0" Value="Popup" Type="5" />
+											</Property>
+											<Property Name="Caption">
+												<Value PropertyType="0" Value="Expense It Demo" Type="5" />
+											</Property>
+											<Property Name="ObjectGroupIndex">
+												<Value PropertyType="0" Value="1" Type="0" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="menuitem_File" Key="{76069B87-F7BD-4605-98EF-2C4612ED27AD}" ParallelWalk="True">
+												<Image FileName="656719016" Left="8" Top="31" Right="40" Bottom="49" />
+												<TypeInfo Item0="{CD574423-091C-4FF3-AB5B-6FCFE3117922}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value PropertyType="0" Value="MenuItem" Type="5" />
+													</Property>
+													<Property Name="Caption">
+														<Value PropertyType="0" Value="File" Type="5" />
+													</Property>
+													<Property Name="ObjectGroupIndex">
+														<Value PropertyType="0" Value="1" Type="0" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="menuitem_Help" Key="{2CAFCA62-850F-48B1-90CE-75869CE39CDC}" ParallelWalk="True">
+												<Image FileName="1888684682" Left="40" Top="31" Right="79" Bottom="49" />
+												<TypeInfo Item0="{CD574423-091C-4FF3-AB5B-6FCFE3117922}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value PropertyType="0" Value="MenuItem" Type="5" />
+													</Property>
+													<Property Name="Caption">
+														<Value PropertyType="0" Value="Help" Type="5" />
+													</Property>
+													<Property Name="ObjectGroupIndex">
+														<Value PropertyType="0" Value="1" Type="0" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="edit_Email" Key="{04F49D7D-690F-42B9-875B-18773CE13106}" ParallelWalk="True">
+										<Image FileName="1888684682" Left="263" Top="59" Right="462" Bottom="82" />
+										<TypeInfo Item0="{EFE52141-C6F5-4077-9A9E-728B62C5BF76}" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value PropertyType="0" Value="Edit" Type="5" />
+											</Property>
+											<Property Name="Caption">
+												<Value PropertyType="0" Value="Email" Type="5" />
+											</Property>
+											<Property Name="ObjectGroupIndex">
+												<Value PropertyType="0" Value="1" Type="0" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="edit_EmployeeNumber" Key="{442BC27D-7BEF-433E-818E-AAE8BAB96B17}" ParallelWalk="True">
+										<Image FileName="1888684682" Left="263" Top="87" Right="462" Bottom="111" />
+										<TypeInfo Item0="{EFE52141-C6F5-4077-9A9E-728B62C5BF76}" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value PropertyType="0" Value="Edit" Type="5" />
+											</Property>
+											<Property Name="Caption">
+												<Value PropertyType="0" Value="Employee Number" Type="5" />
+											</Property>
+											<Property Name="ObjectGroupIndex">
+												<Value PropertyType="0" Value="1" Type="0" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="combobox_CostCenter" Key="{280C7CA8-379B-4909-9DB2-CDD06DCBB4B8}" ParallelWalk="True">
+										<Image FileName="1888684682" Left="263" Top="116" Right="462" Bottom="139" />
+										<TypeInfo Item0="{328DCAC2-9C03-47D3-9BE8-232563F25E10}" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value PropertyType="0" Value="ComboBox" Type="5" />
+											</Property>
+											<Property Name="Caption">
+												<Value PropertyType="0" Value="Cost Center" Type="5" />
+											</Property>
+											<Property Name="ObjectGroupIndex">
+												<Value PropertyType="0" Value="1" Type="0" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="list_EmployeesGrp" Key="{1847688A-2220-4D7A-AAA0-4DBE3C132503}" ParallelWalk="True">
+										<Image FileName="1888684682" Left="263" Top="139" Right="467" Bottom="168" />
+										<TypeInfo Item0="{51C00C9F-294A-4C96-B661-123D9CBE643B}" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value PropertyType="0" Value="List" Type="5" />
+											</Property>
+											<Property Name="Caption">
+												<Value PropertyType="0" Value="Employees" Type="5" />
+											</Property>
+											<Property Name="ObjectGroupIndex">
+												<Value PropertyType="0" Value="1" Type="0" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="listitem_Fte" Key="{D17B959F-D76B-42C9-8C95-FD98EBFD9E4B}" ParallelWalk="True">
+												<Image FileName="1888684682" Left="263" Top="146" Right="300" Bottom="166" />
+												<TypeInfo Item0="{09CECCAE-3500-47E5-B813-CA2F5BBC741E}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value PropertyType="0" Value="ListItem" Type="5" />
+													</Property>
+													<Property Name="Caption">
+														<Value PropertyType="0" Value="FTE" Type="5" />
+													</Property>
+													<Property Name="ObjectGroupIndex">
+														<Value PropertyType="0" Value="1" Type="0" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="eGrp_Fte" Key="{C5D22EF7-06B8-4816-BBF3-96BB997B2B32}" ParallelWalk="True">
+														<Image FileName="1888684682" Left="263" Top="149" Right="300" Bottom="164" />
+														<TypeInfo Item0="{707195F0-8663-4A33-B77C-AAF93DBCB725}" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value PropertyType="0" Value="RadioButton" Type="5" />
+															</Property>
+															<Property Name="Caption">
+																<Value PropertyType="0" Value="FTE" Type="5" />
+															</Property>
+															<Property Name="ObjectGroupIndex">
+																<Value PropertyType="0" Value="1" Type="0" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+											<Child Name="listitem_Csg" Key="{329A0FC3-D4C0-4955-8E0A-1D64B8E95986}" ParallelWalk="True">
+												<Image FileName="1888684682" Left="305" Top="146" Right="346" Bottom="166" />
+												<TypeInfo Item0="{09CECCAE-3500-47E5-B813-CA2F5BBC741E}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value PropertyType="0" Value="ListItem" Type="5" />
+													</Property>
+													<Property Name="Caption">
+														<Value PropertyType="0" Value="CSG" Type="5" />
+													</Property>
+													<Property Name="ObjectGroupIndex">
+														<Value PropertyType="0" Value="1" Type="0" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="eGrp_Csg" Key="{C442BDD2-3DBC-4805-942A-EF32E5365C82}" ParallelWalk="True">
+														<Image FileName="1888684682" Left="305" Top="149" Right="346" Bottom="164" />
+														<TypeInfo Item0="{707195F0-8663-4A33-B77C-AAF93DBCB725}" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value PropertyType="0" Value="RadioButton" Type="5" />
+															</Property>
+															<Property Name="Caption">
+																<Value PropertyType="0" Value="CSG" Type="5" />
+															</Property>
+															<Property Name="ObjectGroupIndex">
+																<Value PropertyType="0" Value="1" Type="0" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+											<Child Name="listitem_Vendor" Key="{09C716A8-F380-48FA-8518-763FD3A96426}" ParallelWalk="True">
+												<Image FileName="1888684682" Left="351" Top="146" Right="408" Bottom="166" />
+												<TypeInfo Item0="{09CECCAE-3500-47E5-B813-CA2F5BBC741E}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value PropertyType="0" Value="ListItem" Type="5" />
+													</Property>
+													<Property Name="Caption">
+														<Value PropertyType="0" Value="Vendor" Type="5" />
+													</Property>
+													<Property Name="ObjectGroupIndex">
+														<Value PropertyType="0" Value="1" Type="0" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="eGrp_Vendor" Key="{3021DF32-36CC-4652-9D19-29A7F8CDA55C}" ParallelWalk="True">
+														<Image FileName="1888684682" Left="351" Top="149" Right="408" Bottom="164" />
+														<TypeInfo Item0="{707195F0-8663-4A33-B77C-AAF93DBCB725}" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value PropertyType="0" Value="RadioButton" Type="5" />
+															</Property>
+															<Property Name="Caption">
+																<Value PropertyType="0" Value="Vendor" Type="5" />
+															</Property>
+															<Property Name="ObjectGroupIndex">
+																<Value PropertyType="0" Value="1" Type="0" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="list_EmployeeNames" Key="{355B3DC3-EE90-4F6D-8B1B-94778A1ED725}" ParallelWalk="True">
+										<Image FileName="1888684682" Left="263" Top="173" Right="462" Bottom="237" />
+										<TypeInfo Item0="{51C00C9F-294A-4C96-B661-123D9CBE643B}" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value PropertyType="0" Value="List" Type="5" />
+											</Property>
+											<Property Name="Caption">
+												<Value PropertyType="0" Value="Employee Name" Type="5" />
+											</Property>
+											<Property Name="ObjectGroupIndex">
+												<Value PropertyType="0" Value="1" Type="0" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="button_CreateExpenseReport" Key="{ACFB8EAD-3DFD-414D-A3C1-9F47EC0B9BB5}" ParallelWalk="True">
+										<Image FileName="656719016" Left="263" Top="247" Right="462" Bottom="269" />
+										<TypeInfo Item0="{7FF3D5D5-EDA3-485D-BDC7-297A59431EA3}" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value PropertyType="0" Value="Button" Type="5" />
+											</Property>
+											<Property Name="Caption">
+												<Value PropertyType="0" Value="Create Expense Report" Type="5" />
+											</Property>
+											<Property Name="ObjectGroupIndex">
+												<Value PropertyType="0" Value="1" Type="0" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="form2_CreateExpenseReport" Key="{0CE079C6-1F7F-427E-8E33-A5CF4818B556}" ParallelWalk="True">
+								<Image FileName="-1636396522" Left="0" Top="0" Right="778" Bottom="500" />
+								<TypeInfo Item0="{DDAEADFE-3290-47EF-ADEE-E1A4394B09D6}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value PropertyType="0" Value="Form" Type="5" />
+									</Property>
+									<Property Name="Caption">
+										<Value PropertyType="0" Value="Create Expense Report" Type="5" />
+									</Property>
+									<Property Name="ObjectGroupIndex">
+										<Value PropertyType="0" Value="1" Type="0" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="edit_EmailAlias" Key="{3F5CBFD0-F2B9-48F1-8418-C3E0F7E12565}" ParallelWalk="True">
+										<Image FileName="-1636396522" Left="622" Top="41" Right="760" Bottom="64" />
+										<TypeInfo Item0="{EFE52141-C6F5-4077-9A9E-728B62C5BF76}" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value PropertyType="0" Value="Edit" Type="5" />
+											</Property>
+											<Property Name="Caption">
+												<Value PropertyType="0" Value="Email Alias" Type="5" />
+											</Property>
+											<Property Name="ObjectGroupIndex">
+												<Value PropertyType="0" Value="1" Type="0" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="edit_EmployeeNumber" Key="{9A9E5493-C448-47AB-8EEE-6D97D804C49D}" ParallelWalk="True">
+										<Image FileName="-1636396522" Left="622" Top="69" Right="760" Bottom="93" />
+										<TypeInfo Item0="{EFE52141-C6F5-4077-9A9E-728B62C5BF76}" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value PropertyType="0" Value="Edit" Type="5" />
+											</Property>
+											<Property Name="Caption">
+												<Value PropertyType="0" Value="Employee Number" Type="5" />
+											</Property>
+											<Property Name="ObjectGroupIndex">
+												<Value PropertyType="0" Value="1" Type="0" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="edit_CostCenter" Key="{F590CF70-AD6E-49BF-B1A3-79B83BCF1865}" ParallelWalk="True">
+										<Image FileName="-1636396522" Left="622" Top="98" Right="760" Bottom="121" />
+										<TypeInfo Item0="{EFE52141-C6F5-4077-9A9E-728B62C5BF76}" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value PropertyType="0" Value="Edit" Type="5" />
+											</Property>
+											<Property Name="Caption">
+												<Value PropertyType="0" Value="Cost Center" Type="5" />
+											</Property>
+											<Property Name="ObjectGroupIndex">
+												<Value PropertyType="0" Value="1" Type="0" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="button_AddExpense" Key="{72ED65BF-DDDE-4DA3-B859-93950716C17F}" ParallelWalk="True">
+										<Image FileName="-1499337189" Left="638" Top="144" Right="760" Bottom="166" />
+										<TypeInfo Item0="{7FF3D5D5-EDA3-485D-BDC7-297A59431EA3}" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value PropertyType="0" Value="Button" Type="5" />
+											</Property>
+											<Property Name="Caption">
+												<Value PropertyType="0" Value="Add Expense" Type="5" />
+											</Property>
+											<Property Name="ObjectGroupIndex">
+												<Value PropertyType="0" Value="1" Type="0" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="button_ViewChart" Key="{7177C477-1A0E-44A1-8F34-1685F5FC7430}" ParallelWalk="True">
+										<Image FileName="-1499337189" Left="638" Top="171" Right="760" Bottom="283" />
+										<TypeInfo Item0="{7FF3D5D5-EDA3-485D-BDC7-297A59431EA3}" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value PropertyType="0" Value="Button" Type="5" />
+											</Property>
+											<Property Name="Caption">
+												<Value PropertyType="0" Value="View Chart" Type="5" />
+											</Property>
+											<Property Name="ObjectGroupIndex">
+												<Value PropertyType="0" Value="1" Type="0" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="list_ExpenseReport" Key="{3F973869-8417-4C3B-90C8-DC8370C0ADC2}" ParallelWalk="True">
+										<Image FileName="-1499337189" Left="23" Top="149" Right="623" Bottom="387" />
+										<TypeInfo Item0="{51C00C9F-294A-4C96-B661-123D9CBE643B}" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value PropertyType="0" Value="List" Type="5" />
+											</Property>
+											<Property Name="Caption">
+												<Value PropertyType="0" Value="Expense Report" Type="5" />
+											</Property>
+											<Property Name="ObjectGroupIndex">
+												<Value PropertyType="0" Value="1" Type="0" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="text_TotalExpenses" Key="{4EE1083D-7BFE-4CB7-9DF0-F185B590F720}" ParallelWalk="True">
+										<Image FileName="-1499337189" Left="372" Top="397" Right="564" Bottom="429" />
+										<TypeInfo Item0="{B8568FEF-2188-4C9F-A615-6AE4F4AB9770}" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value PropertyType="0" Value="Text" Type="5" />
+											</Property>
+											<Property Name="Caption">
+												<Value PropertyType="0" Value="Total Expenses ($):" Type="5" />
+											</Property>
+											<Property Name="ObjectGroupIndex">
+												<Value PropertyType="0" Value="1" Type="0" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="text_TotAmt" Key="{B34DD788-C36D-4CBD-8958-A496341E4C3F}" ParallelWalk="True">
+										<Image FileName="-1636396522" Left="579" Top="397" Right="618" Bottom="429" />
+										<TypeInfo Item0="{B8568FEF-2188-4C9F-A615-6AE4F4AB9770}" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value PropertyType="0" Value="Text" Type="5" />
+											</Property>
+											<Property Name="ControlIndex">
+												<Value PropertyType="0" Value="11" Type="0" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="button_Ok" Key="{5C1D7B9D-9003-4E51-B6AF-2F76D972C0A3}" ParallelWalk="True">
+										<Image FileName="-1636396522" Left="595" Top="460" Right="675" Bottom="482" />
+										<TypeInfo Item0="{7FF3D5D5-EDA3-485D-BDC7-297A59431EA3}" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value PropertyType="0" Value="Button" Type="5" />
+											</Property>
+											<Property Name="Caption">
+												<Value PropertyType="0" Value="OK" Type="5" />
+											</Property>
+											<Property Name="ObjectGroupIndex">
+												<Value PropertyType="0" Value="1" Type="0" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="button_Cancel" Key="{930B36E6-B1FC-4D3B-B76F-D649E864B705}" ParallelWalk="True">
+										<Image FileName="-1636396522" Left="680" Top="460" Right="760" Bottom="482" />
+										<TypeInfo Item0="{7FF3D5D5-EDA3-485D-BDC7-297A59431EA3}" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value PropertyType="0" Value="Button" Type="5" />
+											</Property>
+											<Property Name="Caption">
+												<Value PropertyType="0" Value="Cancel" Type="5" />
+											</Property>
+											<Property Name="ObjectGroupIndex">
+												<Value PropertyType="0" Value="1" Type="0" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="form3_ChartWindow" Key="{A5AFF206-0D70-49DB-8DB0-FCFB5CC5AABF}" ParallelWalk="True">
+								<Image FileName="2095083372" Left="0" Top="0" Right="300" Bottom="300" />
+								<TypeInfo Item0="{DDAEADFE-3290-47EF-ADEE-E1A4394B09D6}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value PropertyType="0" Value="Form" Type="5" />
+									</Property>
+									<Property Name="Caption">
+										<Value PropertyType="0" Value="ViewChartWindow" Type="5" />
+									</Property>
+									<Property Name="ObjectGroupIndex">
+										<Value PropertyType="0" Value="1" Type="0" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="button_Close" Key="{5EDA2910-829C-45E8-8F29-C1DA0F03757D}" ParallelWalk="True">
+										<Image FileName="2117683784" Left="680" Top="597" Right="760" Bottom="619" />
+										<TypeInfo Item0="{7FF3D5D5-EDA3-485D-BDC7-297A59431EA3}" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value PropertyType="0" Value="Button" Type="5" />
+											</Property>
+											<Property Name="Caption">
+												<Value PropertyType="0" Value="Close" Type="5" />
+											</Property>
+											<Property Name="ObjectGroupIndex">
+												<Value PropertyType="0" Value="1" Type="0" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="Proc_ExpenseIt" Owner="{D8C38F63-AD1D-424E-8663-0C5A7831164F}">
+			<Child Name="form1_Expenseit" Owner="{7057D8BB-D8BD-411D-A533-482A21838613}">
+				<Child Name="edit_Email" Owner="{04F49D7D-690F-42B9-875B-18773CE13106}" />
+				<Child Name="edit_EmployeeNumber" Owner="{442BC27D-7BEF-433E-818E-AAE8BAB96B17}" />
+				<Child Name="combobox_CostCenter" Owner="{280C7CA8-379B-4909-9DB2-CDD06DCBB4B8}" />
+				<Child Name="list_EmployeeNames" Owner="{355B3DC3-EE90-4F6D-8B1B-94778A1ED725}" />
+				<Child Name="button_CreateExpenseReport" Owner="{ACFB8EAD-3DFD-414D-A3C1-9F47EC0B9BB5}" />
+				<Child Name="menuitem_File" Owner="{76069B87-F7BD-4605-98EF-2C4612ED27AD}" />
+				<Child Name="menuitem_Help" Owner="{2CAFCA62-850F-48B1-90CE-75869CE39CDC}" />
+				<Child Name="list_EmployeesGrp" Owner="{1847688A-2220-4D7A-AAA0-4DBE3C132503}">
+					<Child Name="listitem_Fte" Owner="{D17B959F-D76B-42C9-8C95-FD98EBFD9E4B}">
+						<Child Name="eGrp_Fte" Owner="{C5D22EF7-06B8-4816-BBF3-96BB997B2B32}" />
+					</Child>
+					<Child Name="listitem_Csg" Owner="{329A0FC3-D4C0-4955-8E0A-1D64B8E95986}">
+						<Child Name="eGrp_Csg" Owner="{C442BDD2-3DBC-4805-942A-EF32E5365C82}" />
+					</Child>
+					<Child Name="listitem_Vendor" Owner="{09C716A8-F380-48FA-8518-763FD3A96426}">
+						<Child Name="eGrp_Vendor" Owner="{3021DF32-36CC-4652-9D19-29A7F8CDA55C}" />
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="form2_CreateExpenseReport" Owner="{0CE079C6-1F7F-427E-8E33-A5CF4818B556}">
+				<Child Name="edit_EmailAlias" Owner="{3F5CBFD0-F2B9-48F1-8418-C3E0F7E12565}" />
+				<Child Name="edit_EmployeeNumber" Owner="{9A9E5493-C448-47AB-8EEE-6D97D804C49D}" />
+				<Child Name="edit_CostCenter" Owner="{F590CF70-AD6E-49BF-B1A3-79B83BCF1865}" />
+				<Child Name="button_AddExpense" Owner="{72ED65BF-DDDE-4DA3-B859-93950716C17F}" />
+				<Child Name="button_ViewChart" Owner="{7177C477-1A0E-44A1-8F34-1685F5FC7430}" />
+				<Child Name="list_ExpenseReport" Owner="{3F973869-8417-4C3B-90C8-DC8370C0ADC2}" />
+				<Child Name="text_TotalExpenses" Owner="{4EE1083D-7BFE-4CB7-9DF0-F185B590F720}" />
+				<Child Name="text_TotAmt" Owner="{B34DD788-C36D-4CBD-8958-A496341E4C3F}" />
+				<Child Name="button_Ok" Owner="{5C1D7B9D-9003-4E51-B6AF-2F76D972C0A3}" />
+				<Child Name="button_Cancel" Owner="{930B36E6-B1FC-4D3B-B76F-D649E864B705}" />
+			</Child>
+			<Child Name="form3_ChartWindow" Owner="{A5AFF206-0D70-49DB-8DB0-FCFB5CC5AABF}">
+				<Child Name="button_Close" Owner="{5EDA2910-829C-45E8-8F29-C1DA0F03757D}" />
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>
